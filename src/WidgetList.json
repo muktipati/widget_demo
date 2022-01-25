@@ -1,0 +1,126 @@
+{
+    "widgetsList" :[
+        {
+            "id" : "0",
+            "name" : "Total Orders", 
+            "inputParam" : "total",
+            "type" : "tabular",    
+            "img" : "TotalOrderIcon", 
+            "layout" : "0,13,2,4,4,2,0",
+            "colors" : [],
+            "cords" : { "x":0, "y":13, "w":2, "h":4 ,"minH": 4,"minW": 2, "i":"0"},
+            "description" : "Displays a board for Total Count of Current orders",
+            "role": "ap_enroute_widgets_orders_total"
+            
+        },
+        {
+            "id" :  "1",
+            "type" : "tabular",
+            "name" : "Order Delivered Today", 
+            "inputParam" : "deliveredtoday",
+            "img" : "Orders_Delivered_today",
+            "layout" : "0,0,2,4,4,2,1",
+            "colors" : [],
+            "cords" : {"x":0, "y":0, "w":2, "h":4 ,"minH": 4,"minW": 2, "i":"1"}, 
+            "description" : "Displays a tabular board for today's total delivered Trip orders ",
+            "role": "ap_enroute_widgets_orders_delivered_today"
+            
+        }, 
+        {
+            "id" : "2",
+            "type" : "tabular",
+            "name" : "Order Started Today", 
+            "inputParam" : "startedtoday",
+            "img" : "Orders_Started_today",
+            "layout" : "2,0,2,4,4,2,2",
+            "colors" : [],
+            "cords" : {"x":2, "y":0, "w":2, "h":4,"minH": 4,"minW": 2, "i":"2"}, 
+            "description" : "Displays a board for today's started Trip orders ",
+            "role": "ap_enroute_widgets_orders_started_today"
+            
+        },{
+            "id" : "3",
+            "type" : "tabular",
+            "name" : "Order Delivered in Selected Time Period", 
+            "inputParam" : "delivered",
+            "img" : "Orderd_in_Selected_Time",
+            "layout" : "4,13,2,4,4,2,3",
+            "colors" : [],
+            "cords" : {"x":4, "y":13, "w":2, "h":4,"minH": 4,"minW": 2, "i":"3"}, 
+            "description" : "Displays a board for today's Order Delivered in Selected Time Period ",
+            "role": "ap_enroute_widgets_orders_delivered_lastxdays"
+            
+        },{
+            "id" : "4",
+            "type" : "tabular",
+            "name" : "Active Orders", 
+            "inputParam" : "active",
+            "img" : "Active_Orders",
+            "layout" : "4,0,2,4,4,2,4",
+            "colors" : [],
+            "cords" : {"x":4, "y":0, "w":2, "h":4,"minH": 4,"minW": 2, "i":"4"}, 
+            "description" : "Displays a board for today's Active Trip Orders",
+            "role": "ap_enroute_widgets"
+        },{
+            "id" : "5",
+            "type" : "tabular",
+            "name" : "Order in Red", 
+            "inputParam" : "red",
+            "img" : "Orders_in_red",
+            "layout" : "2,13,2,4,4,2,5",
+            "colors" : [],
+            "cords" : {"x":2, "y":13, "w":2, "h":4,"minH": 4,"minW": 2, "i":"5"}, 
+            "description" : "Displays a board for Red Orders",
+            "role": "ap_enroute_widgets_orders_red"
+          
+        },
+        {
+            "id" : "10",
+            "type" : "tabular",
+            "name" : "Trips Towards Customer", 
+            "inputParam" : "TOWARDSCUSTOMER",
+            "img" : "trip_towards_customer",
+            "layout" : "0,17,2,4,4,2,10",
+            "colors" : [],
+            "cords" : {"x":0, "y":17, "w":2, "h":4,"minH": 4,"minW": 2, "i":"10"}, 
+            "description" : "Displays a board for towards customer",
+            "role": "ap_enroute_widgets_trip_master"
+        },
+        {
+            "id" : "11",
+            "type" : "tabular",
+            "name" : "Trips Returning to Plant", 
+            "inputParam" : "towardssource",
+            "img" : "trip_return",
+            "layout" : "2,17,2,4,4,2,11",
+            "colors" : [],
+            "cords" : {"x":2, "y":17, "w":2, "h":4,"minH": 4,"minW": 2, "i":"11"}, 
+            "description" : "Displays a board for returning towards plant",
+            "role": "ap_enroute_widgets_trip_master"
+        },
+        {
+            "id" : "12",
+            "type" : "tabular",
+            "name" : "Trips At Customer", 
+            "inputParam" : "ATCUSTOMER",
+            "img" : "trip_at_customer",
+            "layout" : "4,17,2,4,4,2,12",
+            "colors" : [],
+            "cords" : {"x":4, "y":17, "w":2, "h":4,"minH": 4,"minW": 2, "i":"12"}, 
+            "description" : "Displays a board for at customer",
+            "role": "ap_enroute_widgets_trip_master"
+        },
+        {
+            "id" : "13",
+            "type" : "tabular",
+            "name" : "Trips In Plant/Yard", 
+            "inputParam" : "ATSOURCE",
+            "img" : "trip_at_plant",
+            "layout" : "7,13,2,4,4,2,13",
+            "colors" : [],
+            "cords" : {"x":6, "y":17, "w":2, "h":4,"minH": 4,"minW": 2, "i":"13"}, 
+            "description" : "Displays a board for at plant",
+            "role": "ap_enroute_widgets_trip_master"
+        }
+    ]
+}
